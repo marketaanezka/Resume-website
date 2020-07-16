@@ -1,9 +1,35 @@
+.profile {
+  border: 2px solid red;
+}
+
+.experience {
+  border: 2px solid green;
+}
+
 .profile__photo {
   width: 150px;
   height:150px;
-  background-image: url(/img/profile.JPG);
+  background-image: url(/Resume-website/img/profile.JPG);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 50%;
+}
+
+.skills__list {
+  list-style-type: none;
+}
+
+.skills__rating {
+  height: 20px;
+  width: 150px;
+  background-color: #555;
+  position: relative;
+}
+
+.skills__rating > span {
+  display: block;
+  height: 100%;
+  width: 25%;
+  background-color: blue;
 }
