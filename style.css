@@ -25,11 +25,86 @@
   width: 150px;
   background-color: #555;
   position: relative;
+  border-radius: 10px;
 }
 
 .skills__rating > span {
   display: block;
   height: 100%;
-  width: 25%;
   background-color: blue;
+  border-radius: 10px 0px 0px 10px; 
+  width: 0%;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+.skills__html { 
+  animation-name: html;
+}
+
+@keyframes html {
+  to {
+    width: 75%;
+  }
+}
+
+.skills__css { 
+  animation-name: css;
+}
+
+@keyframes css {
+  to {
+    width: 60%;
+  }
+}
+
+.skills__bootstrap { 
+  animation-name: bootstrap;
+}
+
+@keyframes bootstrap {
+  to {
+    width: 35%;
+  }
+}
+
+.skills__javascript { 
+  animation-name: javascript;
+}
+
+@keyframes javascript {
+  to {
+    width: 55%;
+  }
+}
+
+.skills__vuejs { 
+  animation-name: vuejs;
+}
+
+@keyframes vuejs {
+  to {
+    width: 38%;
+  }
+}
+
+.skills__cs { 
+  animation-name: cs;
+}
+
+@keyframes cs {
+  to {
+    width: 30%;
+  }
+}
+
+.skills__github { 
+  animation-name: github;
+}
+
+@keyframes github {
+  to {
+    width: 40%;
+  }
 }
