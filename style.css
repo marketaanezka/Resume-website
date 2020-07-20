@@ -8,7 +8,7 @@
 
 .profile__photo {
   width: 150px;
-  height:150px;
+  height: 150px;
   background-image: url(/Resume-website/img/profile.JPG);
   background-position: center;
   background-repeat: no-repeat;
@@ -32,14 +32,14 @@
   display: block;
   height: 100%;
   background-color: blue;
-  border-radius: 10px 0px 0px 10px; 
+  border-radius: 10px 0px 0px 10px;
   width: 0%;
   animation-duration: 1s;
   animation-timing-function: ease;
   animation-fill-mode: forwards;
 }
 
-.skills__html { 
+.skills__html {
   animation-name: html;
 }
 
@@ -49,7 +49,7 @@
   }
 }
 
-.skills__css { 
+.skills__css {
   animation-name: css;
 }
 
@@ -59,7 +59,7 @@
   }
 }
 
-.skills__bootstrap { 
+.skills__bootstrap {
   animation-name: bootstrap;
 }
 
@@ -69,7 +69,7 @@
   }
 }
 
-.skills__javascript { 
+.skills__javascript {
   animation-name: javascript;
 }
 
@@ -79,7 +79,7 @@
   }
 }
 
-.skills__vuejs { 
+.skills__vuejs {
   animation-name: vuejs;
 }
 
@@ -89,7 +89,17 @@
   }
 }
 
-.skills__cs { 
+.skills__webpack {
+  animation-name: webpack;
+}
+
+@keyframes webpack {
+  to {
+    width: 42%;
+  }
+}
+
+.skills__cs {
   animation-name: cs;
 }
 
@@ -99,7 +109,7 @@
   }
 }
 
-.skills__github { 
+.skills__github {
   animation-name: github;
 }
 
@@ -108,3 +118,16 @@
     width: 40%;
   }
 }
+
+/* 
+description will show on hover on title
+.htmldescription {
+  display: none;
+}
+
+elements must be direct siblings
+.htmltitle:hover + .htmldescription {
+  display: block;
+} */
+
+
