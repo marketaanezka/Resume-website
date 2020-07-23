@@ -3,8 +3,13 @@
 }
 
 body {
-  background-color: #f6b386;
   font-family: 'Barlow', sans-serif;
+}
+
+.profile,
+.skills,
+.education{
+  background-color: #efdbdb;
 }
 
 .name,
@@ -15,6 +20,21 @@ background-color: #123042;
 color: #dee0e3;
 }
 
+.top {
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 15;
+}
+
+nav {
+  background-color: white;
+}
+
+.resume {
+  padding-top: 150px;
+}
 
 .profile__photo {
   width: 150px;
