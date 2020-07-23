@@ -1,10 +1,20 @@
-.profile {
-  border: 2px solid red;
+* {
+  box-sizing: border-box;
 }
 
-.experience {
-  border: 2px solid green;
+body {
+  background-color: #f6b386;
+  font-family: 'Barlow', sans-serif;
 }
+
+.name,
+.experience,
+.career 
+{
+background-color: #123042;
+color: #dee0e3;
+}
+
 
 .profile__photo {
   width: 150px;
