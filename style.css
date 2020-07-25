@@ -71,7 +71,7 @@ nav {
   border: none;
 }
 
-a {  
+.navitem {  
   margin: 0;
   display: flex;
   justify-content: center;
@@ -86,23 +86,26 @@ i {
 }
 
 /* visited link */
-a:visited {
+.navitem:visited {
   color: #dde4e9;
 }
 
 /* mouse over link */
-a:hover {
+.navitem:hover {
   color: #184058;
   background-color: #dde4e9;
   transition: 0.3s ease;
 }
 
-a:hover i {
+.navitem:hover i {
   color: #184058;
   font-size:1.2em;
   transition: 0.5s ease;
 }
 
+.active {
+  background-color: #435660;
+}
 
 
 /* hides profile decription, skill and career description */
@@ -119,10 +122,12 @@ a:hover i {
   padding: 10px;
 }
 
+
 .profile__photo {
   width: 150px;
   height: 150px;
-  background-image: url(/img/profile.JPG);
+  /* background-image: url(/img/profile.JPG); */
+  background-image: linear-gradient(rgb(80, 78, 92), rgb(94, 87, 124));
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -139,15 +144,17 @@ a:hover i {
 .skills__rating {
   height: 20px;
   width: 150px;
-  background-color: #555;
+  margin: 10px;
+  background-color: #dde4e9;
   position: relative;
   border-radius: 10px;
+  box-shadow: 3px 2px 8px 1px rgba(97, 96, 96, 0.8);
 }
 
 .skills__rating > span {
   display: block;
   height: 100%;
-  background-color: blue;
+  background-color: #184058;
   border-radius: 10px 0px 0px 10px;
   width: 0%;
   animation-duration: 1s;
