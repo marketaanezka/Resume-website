@@ -6,6 +6,7 @@
     <title>Marketa Resume</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d3e9556b5c.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <!-- Header -->
@@ -16,12 +17,30 @@
       </header>
       <!-- Navbar -->
       <nav>
-        <a href="#profile">About me</a>
-        <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
-        <a href="#career">Career</a>
-        <a href="#education">Education</a>
-        <a href="#contact">Contact</a>
+        <a href="#profile">
+          <i class="fas fa-user"></i>
+          <span class="mobile-hidden">About me</span> 
+        </a>
+        <a href="#experience">
+          <i class="fas fa-award"></i>
+          <span class="mobile-hidden">Experience</span> 
+        </a>
+        <a href="#skills">
+          <i class="fas fa-code"></i>
+          <span class="mobile-hidden">Skills</span> 
+        </a>
+        <a href="#career">
+          <i class="fas fa-briefcase"></i>
+          <span class="mobile-hidden">Career</span> 
+        </a>
+        <a href="#education">
+          <i class="fas fa-graduation-cap"></i>
+          <span class="mobile-hidden">Education</span> 
+        </a>
+        <a href="#contact">
+          <i class="fas fa-phone-alt"></i>
+          <span class="mobile-hidden">Contact</span> 
+        </a>
       </nav>
     </div>
 
@@ -29,11 +48,11 @@
     <section class="resume">
       
       <!-- Profile - personal info -->
-      <div class="profile" id="profile">
+      <div class="profile" id="profile">        
+        <div class="profile__photo"></div>
         <div class="profile__heading">
           <h3>About me</h3>
         </div>
-        <div class="profile__photo"></div>
         <div class="profile__intro">
           <p>
             Hi! I'm Markéta. I'm a self-taught front-end developer with a
@@ -275,13 +294,13 @@
       </div>
       
 
-      <!-- Hobbies section / NO LINK FROM NAVBAR-->
-      <div class="hobbies">
-        <div class="hobbies__heading">
-          <h4>My hobbies and quirks</h4>
+      <!-- Contact-->
+      <div class="contact">
+        <div class="contact__heading">
+          <h4>CONTACT</h4>
         </div>
-        <div class="hobbies__description">
-          I relax by playing the piano when it's cold outside or going for a run when it gets warmer. My biggest achievement is a silver medal on the World Championship in Orienteering in 2012. 
+        <div class="contact__description">
+          CONTACT 
         </div>
       </div>
     </section>
