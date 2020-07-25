@@ -43,7 +43,7 @@ color: #eeeef1;
   justify-content: space-between;
 
   background-color: #272939;
-  color: #eeeef1;
+  color: #dde4e9;
   box-shadow: 0px 6px 16px 0px rgba(58, 57, 57, 0.6);
 }
 
@@ -82,22 +82,25 @@ a {
 }
 
 i {
-  color: #eeeef1;
+  color: #dde4e9;
 }
 
 /* visited link */
 a:visited {
-  color: #eeeef1;
+  color: #dde4e9;
 }
 
 /* mouse over link */
 a:hover {
   color: #184058;
-  background-color: #eeeef1;
+  background-color: #dde4e9;
+  transition: 0.3s ease;
 }
 
 a:hover i {
   color: #184058;
+  font-size:1.2em;
+  transition: 0.5s ease;
 }
 
 
