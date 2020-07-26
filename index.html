@@ -5,8 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marketa Resume</title>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/d3e9556b5c.js" crossorigin="anonymous"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d3e9556b5c.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- Header -->
@@ -19,37 +25,35 @@
       <nav>
         <a href="#profile" class="navitem">
           <i class="fas fa-user"></i>
-          <span class="mobile-hidden">About me</span> 
+          <span class="mobile-hidden">About me</span>
         </a>
         <a href="#experience" class="navitem">
           <i class="fas fa-award"></i>
-          <span class="mobile-hidden">Experience</span> 
+          <span class="mobile-hidden">Experience</span>
         </a>
         <a href="#skills" class="navitem">
           <i class="fas fa-code"></i>
-          <span class="mobile-hidden">Skills</span> 
+          <span class="mobile-hidden">Skills</span>
         </a>
         <a href="#career" class="navitem">
           <i class="fas fa-briefcase"></i>
           <span class="mobile-hidden">Career</span>
-          
         </a>
         <a href="#education" class="navitem">
           <i class="fas fa-graduation-cap"></i>
-          <span class="mobile-hidden">Education</span> 
+          <span class="mobile-hidden">Education</span>
         </a>
         <a href="#contact" class="navitem">
           <i class="fas fa-phone-alt"></i>
-          <span class="mobile-hidden">Contact</span> 
+          <span class="mobile-hidden">Contact</span>
         </a>
       </nav>
     </div>
 
     <!-- Resume Part -->
     <section class="resume">
-      
       <!-- Profile - personal info -->
-      <div class="part profile" id="profile">        
+      <div class="part profile" id="profile">
         <div class="profile__photo"></div>
         <div class="profile__heading">
           <h3>About me</h3>
@@ -59,7 +63,7 @@
             Hi! I'm Markéta. I'm a self-taught front-end developer with a
             passion for problem-solving. I have worked on client-facing
             positions for over five years and now I'm making a transition into
-            development. I'm keen to gain more experience in the field. 
+            development. I'm keen to gain more experience in the field.
           </p>
         </div>
       </div>
@@ -70,8 +74,8 @@
           <h3>Experience</h3>
         </div>
         <div class="experience__DA">
-          <span><strong>Digital Academy</strong> 300h </span>
-          <span>Czechitas</span>
+          <h5>Digital Academy</h5>
+          <span> 300h, Czechitas</span>
           <p>
             Three months long requalification course focused on overall
             front-end development tools. Technologies covered include HTML/CSS,
@@ -81,8 +85,8 @@
           </p>
         </div>
         <div class="experience__CS">
-          <span><strong>C# basics</strong> 40h </span>
-          <span>Czechitas</span>
+          <h5>C# basics</h5>
+          <span> 40h, Czechitas</span>
           <p>
             A course covering basics of programming in C#. Loops, arrays,
             Boolean logic, methods, objects, debugging principle.
@@ -209,58 +213,76 @@
         <div class="career__experience">
           <div class="career__position">
             <h5>Global mobility specialist</h5>
-            <span>July 2019 - currently</span>
+            <div>July 2019 - currently</div>
           </div>
-          <div clas="career__info">
+          <div class="career__info">
             <div>Siemens</div>
-            <div>Prague</div>
+            <div class="career__location">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                Prague
+              </div>
+            </div>
             <ul class="mobile-hidden">
               <li>
-                I have a responsibility for several projects, dealing with tax preparation 
-                for Siemens employees and delegates worldwide. 
-              </li>  
+                I have a responsibility for several projects, dealing with tax
+                preparation for Siemens employees and delegates worldwide.
+              </li>
               <li>
-                I ensure smooth data transition and effective liaison between teams.
-              </li>            
+                I ensure smooth data transition and effective liaison between
+                teams.
+              </li>
             </ul>
           </div>
         </div>
         <div class="career__experience">
           <div class="career__position">
             <h5>Recruiter</h5>
-            <span>January 2019 - July 2019</span>
+            <div>January 2019 - July 2019</div>
           </div>
-          <div clas="career__info">
+          <div class="career__info">
             <div>NonStop Consulting</div>
-            <div>Prague</div>
+            <div class="career__location">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                Prague
+              </div>
+            </div>
             <ul class="mobile-hidden">
               <li>
-                I was sourcing candidates using LinkedIn, CV databases, internal database
-              </li>  
+                I was sourcing candidates using LinkedIn, CV databases, internal
+                database
+              </li>
               <li>
-                I had to negotiate, build a rapport with both the client and the candidate.
-              </li>              
+                I had to negotiate, build a rapport with both the client and the
+                candidate.
+              </li>
             </ul>
           </div>
         </div>
         <div class="career__experience">
           <div class="career__position">
             <h5>Shop Manager</h5>
-            <span>November 2017 - January 2019</span>
+            <div>November 2017 - January 2019</div>
           </div>
-          <div clas="career__info">
+          <div class="career__info">
             <div>Guy Gold Coffee Bar</div>
-            <div>London</div>
+            <div class="career__location">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                London
+              </div>
+            </div>
             <ul class="mobile-hidden">
               <li>
                 I communicated with partners and suppliers
-              </li>  
+              </li>
               <li>
-                I hired and trained new staff, did weekly and monthly planning 
-              </li> 
+                I hired and trained new staff, did weekly and monthly planning
+              </li>
               <li>
-                Revenue doubled within one year 
-              </li>             
+                Revenue doubled within one year
+              </li>
             </ul>
           </div>
         </div>
@@ -272,39 +294,56 @@
           <h3>Education</h3>
         </div>
         <div class="education__uni">
-            <h5>Charles University</h5>
-            <div>Prague</div>
-            <div>Faculty of Education</div>
-            <div>Major: English and Russian language</div>
+          <h5>Charles University</h5>
+          <div class="education__location">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              Prague
+            </div>
+          </div>
+          <div>Faculty of Education</div>
+          <div class="education__position">Major: English and Russian language</div>
         </div>
         <div clas="education__internships">
-          <h4>Internships</h4>  
+          <h4>Internships</h4>
           <div class="education__intern">
             <h5>Czech Cultural Center</h5>
-            <div>Moscow</div>
-            <span>2018</span>
-            <div>Event Planner</div>
+            <div class="education__location">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                Moscow
+              </div>
+              <span>2018</span>
+            </div>
+            
+            <div class="education__position">Event Planner</div>
           </div>
           <div class="education__intern">
             <h5>St. Patrick's College</h5>
-            <div>Dublin</div>
-            <span>2014</span>
-            <div>Erasmus exchange</div>
+            <div class="education__location">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                Dublin
+              </div>
+              <span>2014</span>
+            </div>
+            
+            <div class="education__position">Erasmus exchange</div>
           </div>
         </div>
       </div>
-      
+
       <!-- Contact-->
       <div class="part contact" id="contact">
         <div class="contact__heading">
-          <h4>CONTACT</h4>
+          <h3>CONTACT</h3>
         </div>
         <div class="contact__description">
-          CONTACT 
+          CONTACT
         </div>
       </div>
     </section>
- 
+
     <script src="index.js"></script>
   </body>
 </html>
