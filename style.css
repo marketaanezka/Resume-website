@@ -4,6 +4,15 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+  
+}
+
+.part {
+  scroll-margin-top: 80px;
+}
+
 body {
   font-family: 'Barlow', sans-serif;
 }
@@ -83,6 +92,17 @@ nav {
   height: 100%;
 }
 
+.active {
+  background-color: #435660;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 16.66%;
+  height: 100%;
+
+}
 nav i {
   color: #dde4e9;
 }
@@ -105,9 +125,7 @@ nav i {
   transition: 0.5s ease;
 }
 
-.active {
-  background-color: #435660;
-}
+
 
 
 /* hides profile decription, skill and career description */
