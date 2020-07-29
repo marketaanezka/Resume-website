@@ -6,7 +6,6 @@
 
 html {
   scroll-behavior: smooth;
-  
 }
 
 .part {
@@ -14,37 +13,33 @@ html {
 }
 
 body {
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
 }
 
-p, li {
+p,
+li {
   line-height: 130%;
 }
 
 .profile,
 .skills,
-.education
- {
+.education {
   background-color: #f7f0ee;
   color: #321616;
 }
 
 .experience,
 .career,
-.contact 
-{
-background-color: #1b4864;
-color: #eeeef1;
-
+.contact {
+  background-color: #1b4864;
+  color: #eeeef1;
 }
-
-
 
 /* fixed top includes name and navbar */
 .top {
   overflow: hidden;
-  position: fixed; 
-  top: 0; 
+  position: fixed;
+  top: 0;
   height: 90px;
   width: 100%;
   z-index: 15;
@@ -69,14 +64,14 @@ color: #eeeef1;
 /* name */
 .name h1 {
   text-transform: uppercase;
-  letter-spacing: .08em;
+  letter-spacing: 0.08em;
   font-size: 20px;
   text-align: center;
 }
 
 .name h2 {
   text-transform: uppercase;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
   font-weight: 600;
   font-size: 15px;
   text-align: center;
@@ -92,7 +87,7 @@ nav {
   border: none;
 }
 
-.navitem {  
+.navitem {
   margin: 0;
   display: flex;
   justify-content: center;
@@ -111,7 +106,6 @@ nav {
   text-decoration: none;
   width: 16.66%;
   height: 100%;
-
 }
 nav i {
   color: #dde4e9;
@@ -131,12 +125,9 @@ nav i {
 
 .navitem:hover i {
   color: #184058;
-  font-size:1.2em;
+  font-size: 1.2em;
   transition: 0.5s ease;
 }
-
-
-
 
 /* hides profile decription, skill and career description */
 .mobile-hidden {
@@ -153,7 +144,6 @@ nav i {
   padding: 10px;
 }
 
-
 .profile__photo {
   width: 150px;
   height: 150px;
@@ -166,12 +156,12 @@ nav i {
   margin: 0 auto;
 }
 
-h3{
+h3 {
   margin: 10px 0;
   font-size: 1.5em;
 }
 
-h5{
+h5 {
   margin: 12px 0 5px 0;
   font-size: 1.1em;
 }
@@ -204,7 +194,11 @@ h5{
 .skills__rating > span {
   display: block;
   height: 100%;
-  background-color: #184058;
+  /* background-image: linear-gradient(to right, 
+    rgba(33,87,120,1) 0%, 
+    rgba(33,87,120,1) 50%,  
+    #dde4e9 100%); */
+  background-color: #1b4864;
   border-radius: 10px 0px 0px 10px;
   width: 0%;
   animation-duration: 1s;
@@ -212,7 +206,7 @@ h5{
   animation-fill-mode: forwards;
 }
 
-.skills__html {
+.html {
   animation-name: html;
 }
 
@@ -317,7 +311,7 @@ h5{
 
 /* education */
 
-h4{
+h4 {
   font-size: 1.3em;
   margin-top: 10px;
 }
@@ -345,5 +339,3 @@ elements must be direct siblings
 .htmltitle:hover + .htmldescription {
   display: block;
 } */
-
-
