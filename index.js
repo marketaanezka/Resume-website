@@ -40,3 +40,28 @@ let scrollspy = function () {
 
 scrollspy();
  
+
+//animate skills bars when in view
+(function() {
+    var htmlElement;
+    var windowHeight;
+  
+    function init() {
+      htmlElement = document.querySelector('.no-animation');
+      windowHeight = window.innerHeight;
+    }
+  
+    function checkPosition() {
+    var positionFromTop = htmlElement.getBoundingClientRect().top;
+    if (positionFromTop - windowHeight <= 0) {
+          htmlElement.classList.add('skills__html');
+          htmlElement.classList.remove('no-animation');
+        }
+    }
+  
+    window.addEventListener('scroll', checkPosition);
+    window.addEventListener('resize', init);
+  
+    init();
+    checkPosition();
+  })();
