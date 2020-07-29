@@ -23,7 +23,7 @@ let scrollspy = function () {
     let i = 0;
 
     Array.prototype.forEach.call(resumePart, function (e) {
-        resumeParts[e.id] = e.offsetTop - 80;
+        resumeParts[e.id] = e.offsetTop - 90;
     });
 
     window.onscroll = function () {
