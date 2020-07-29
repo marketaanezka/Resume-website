@@ -54,9 +54,37 @@ scrollspy();
     function checkPosition() {
     var positionFromTop = htmlElement.getBoundingClientRect().top;
     if (positionFromTop - windowHeight <= 0) {
-          htmlElement.classList.add('skills__html');
+          htmlElement.classList.add('test__html');
           htmlElement.classList.remove('no-animation');
         }
+    }
+  
+    window.addEventListener('scroll', checkPosition);
+    window.addEventListener('resize', init);
+  
+    init();
+    checkPosition();
+  })();
+
+  (function() {
+    var skillBars;
+    var windowHeight;
+  
+    function init() {
+      skillBars = document.querySelectorAll('.hidden');
+      windowHeight = window.innerHeight;
+    }
+  
+    function checkPosition() {
+      for (var i = 0; i < skillBars.length; i++) {
+        var element = skillBars[i];
+        var positionFromTop = skillBars[i].getBoundingClientRect().top;
+  
+        if (positionFromTop - windowHeight <= 0) {
+          element.classList.add('fade-in-element');
+          element.classList.remove('hidden');
+        }
+      }
     }
   
     window.addEventListener('scroll', checkPosition);
