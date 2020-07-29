@@ -3,7 +3,7 @@
 console.log("funguju")
 
 
-//scrolls down when clicked on a link from navbar - I used css for this
+//scrolls down when clicked on a link from navbar - I used css transition n offset for this
 // document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 //     anchor.addEventListener('click', function (e) {
 //         e.preventDefault();
@@ -23,7 +23,7 @@ let scrollspy = function () {
     let i = 0;
 
     Array.prototype.forEach.call(resumePart, function (e) {
-        resumeParts[e.id] = e.offsetTop - 90;
+        resumeParts[e.id] = e.offsetTop - 80;
     });
 
     window.onscroll = function () {
