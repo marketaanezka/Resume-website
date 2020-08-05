@@ -147,13 +147,13 @@ nav i {
 .profile__photo {
   width: 150px;
   height: 150px;
-  background-image: url(/img/profile.JPG);
-  /* background-image: linear-gradient(rgb(80, 78, 92), rgb(94, 87, 124)); */
+  background-image: url(../Resume-website/img/profile.JPG);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 50%;
   margin: 0 auto;
+  margin-top: 20px;
 }
 
 h3 {
@@ -297,3 +297,42 @@ elements must be direct siblings
 .htmltitle:hover + .htmldescription {
   display: block;
 } */
+
+/* contact form */
+.contact {
+  padding: 10px;
+}
+.contact__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__form label {
+  font-weight: 600;
+}
+
+.contact__form input,
+.contact__form textarea {
+  width: 250px;
+  margin: 10px 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #f5fcff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.send-button {
+  text-transform: lowercase;
+  width: 80px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #31a1b4;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #9ad8e4;
+  
+}

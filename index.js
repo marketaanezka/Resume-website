@@ -4,16 +4,16 @@ console.log("funguju")
 
 
 //scrolls down when clicked on a link from navbar - I used css transition n offset for this
-// document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-//     anchor.addEventListener('click', function (e) {
-//         e.preventDefault();
-//         let element = document.querySelector(this.getAttribute('href'));
-//         //acounts for the hegiht of the navbar
-//         let yOffset = -80;
-//         let y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
-//         window.scrollTo({top: y, behavior: 'smooth'});
-//     });
-// });
+    // document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    //     anchor.addEventListener('click', function (e) {
+    //         e.preventDefault();
+    //         let element = document.querySelector(this.getAttribute('href'));
+    //         //acounts for the hegiht of the navbar
+    //         let yOffset = -80;
+    //         let y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+    //         window.scrollTo({top: y, behavior: 'smooth'});
+    //     });
+    // });
 
 
 //shows which part of the page I am on / scrollspy
